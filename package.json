@@ -1,0 +1,35 @@
+{
+  "name": "iobroker-check-new-issue",
+  "version": "1.0.0",
+  "description": "Checks if an issue contains all required information",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klein0r/iobroker-check-new-issue.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "actions",
+    "create",
+    "update",
+    "comment",
+    "ioBroker"
+  ],
+  "author": {
+    "name": "Matthias Kleine",
+    "email": "info@haus-automatisierung.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/klein0r/iobroker-check-new-issue/issues"
+  },
+  "homepage": "https://github.com/klein0r/iobroker-check-new-issue#readme",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^5.1.1"
+  },
+  "devDependencies": {},
+  "readmeFilename": "README.md"
+}

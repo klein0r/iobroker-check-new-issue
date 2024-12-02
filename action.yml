@@ -1,0 +1,17 @@
+name: ioBroker check new issue
+description: Checks if an issue contains all required information
+inputs:
+  token:
+    description: 'GITHUB_TOKEN or a repo scoped PAT.'
+    default: ${{ github.token }}
+  issue-number:
+    description: The number of the issue or pull request in which to create a comment.
+outputs:
+  comment-id:
+    description: The id of the created comment
+runs:
+  using: node20
+  main: dist/index.js
+branding:
+  icon: 'message-square'
+  color: 'gray-dark'
